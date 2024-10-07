@@ -3,6 +3,8 @@
 # SePPO: Semi-Policy Preference Optimization for Diffusion Alignment.
 
 
+This is the official repository for the paper: [SePPO: Semi-Policy Preference Optimization for Diffusion Alignment](). 
+
 # Structure
 
 - `utils/` has the scoring models for evaluation or AI feedback (PickScore, HPS, Aesthetics, CLIP)
@@ -29,8 +31,6 @@ Then run:
 python valid_scores.py --token 'your hf token' --unet_checkpoint '/SePPO/weight' --dataset_name 'pickapic'
 
 ```
-
-
 ## Important Args
 
 - `--token` your huggingface token
