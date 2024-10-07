@@ -5,7 +5,7 @@
 This is the official repository for the paper: [SePPO: Semi-Policy Preference Optimization for Diffusion Alignment](). 
 
 # Visualization
-<p align="center"><img src="SePPO/assets/seppo.png"/ width="100%"><br></p>
+<p align="center"><img src="assets/seppo.png"/ width="100%"><br></p>
 
 # Structure
 
