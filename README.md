@@ -57,5 +57,5 @@ The output image will be saved to main directory.
 
 # Acknowledge
 
-Thanks to [DiffusionDPO](https://github.com/SalesforceAIResearch/DiffusionDPO) and [Diffusers](https://github.com/huggingface/diffusers).
+Thanks to [DiffusionDPO](https://github.com/SalesforceAIResearch/DiffusionDPO) and [diffusers](https://github.com/huggingface/diffusers).
 
