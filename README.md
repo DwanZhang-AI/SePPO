@@ -49,4 +49,7 @@ python test.py --unet_checkpoint '/SePPO/weight' --prompt 'your prompt'
 The output image will be saved to main directory.
 
 
+# Acknowledge
+
+Thanks to [DiffusionDPO](https://github.com/SalesforceAIResearch/DiffusionDPO) and [Diffusers](https://github.com/huggingface/diffusers).
 
