@@ -7,6 +7,8 @@ This is the official repository for the paper: [SePPO: Semi-Policy Preference Op
 # Visualization
 <p align="center"><img src="assets/seppo.png"/ width="100%"><br></p>
 
+Prompts are: (1) \textit{Photo of a pigeon in a well \underline{tailored suit} getting a cup of coffee in a cafe in the morning}; (2) \textit{Ginger Tabby cat \underline{watercolor} with flowers}; (3) \textit{An image of a peaceful mountain landscape at sunset, with \underline{a small cabin nestled} in the trees and a winding river in the foreground}; (4) \textit{Space dog}; (5) \textit{b\&w photo of 42 y.o man in \underline{white clothes}, bald, face, half body, body, high detailed skin, skin pores, \underline{coastline}, overcast weather}.
+
 # Structure
 
 - `utils/` has the scoring models for evaluation or AI feedback (PickScore, HPS, Aesthetics, CLIP).
