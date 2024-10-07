@@ -7,10 +7,6 @@ from PIL import Image
 
 torch.set_grad_enabled(False)
 
-def gen(model, prompt, generator, gs):
-    im = model(prompt=prompt, generator=generator, guidance_scale=gs).images[0]
-    return im
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate images and calculate scores.")
     parser.add_argument('--unet_checkpoint', type=str, required=True, help="Path to the UNet model checkpoint")

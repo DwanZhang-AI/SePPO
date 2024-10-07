@@ -7,7 +7,7 @@ This is the official repository for the paper: [SePPO: Semi-Policy Preference Op
 
 # Structure
 
-- `utils/` has the scoring models for evaluation or AI feedback (PickScore, HPS, Aesthetics, CLIP)
+- `utils/` has the scoring models for evaluation or AI feedback (PickScore, HPS, Aesthetics, CLIP).
 - `valid_scores.py` is score results from the pretrained model.
 - `requirements.txt` Basic pip requirements.
 - `test.py` You can write your prompt in this file to get an image result output by our trained model. 
