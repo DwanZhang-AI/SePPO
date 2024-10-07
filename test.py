@@ -25,7 +25,7 @@ if __name__ == "__main__":
     gs = 7.5
 
     ims = pipe(prompt=args.prompt, generator=generator, guidance_scale=gs).images[0]
-    img_path = os.path.join('SePPO', f"{0}.png")
+    img_path = os.path.join('SePPO', "0.png")
     
     if isinstance(ims, np.ndarray):
         ims = Image.fromarray(ims)
