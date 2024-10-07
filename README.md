@@ -29,7 +29,6 @@ Then run:
 
 ```
 python valid_scores.py --token 'your hf token' --unet_checkpoint '/SePPO/weight' --dataset_name 'pickapic'
-
 ```
 ## Important Args
 
@@ -44,7 +43,6 @@ Run
 
 ```
 python test.py --unet_checkpoint '/SePPO/weight' --prompt 'your prompt'
-
 ```
 The output image will be saved to main directory.
 
