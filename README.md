@@ -20,7 +20,7 @@ This is the official repository for the paper: [SePPO: Semi-Policy Preference Op
 
 # Score Validation
 
-1. Download the pretained SD-1.5 unet checkpoint from [DwanZhang/SePPO](https://huggingface.co/DwanZhang/SePPO) to weight folder
+1. Download the pretained SD-1.5 unet checkpoint from [DwanZhang/SePPO](https://huggingface.co/DwanZhang/SePPO) to the weight folder
 
 
 2. Then download the HPSv2 test data from [HPSv2](https://github.com/tgxs002/HPSv2?tab=readme-ov-file). Put it at any where you want.
@@ -28,7 +28,15 @@ This is the official repository for the paper: [SePPO: Semi-Policy Preference Op
 Then run:
 
 ```
-python valid_scores.py --token 'your hf token' --unet_checkpoint '/SePPO/weight' --dataset_name 'pickapic'
+python valid_scores.py --token 'your hf token' --unet_checkpoint '/SePPO/weight' --dataset_name 'pickapic_valid'
+```
+or
+```
+python valid_scores.py --token 'your hf token' --unet_checkpoint '/SePPO/weight' --dataset_name 'parti_prompt'
+```
+or
+```
+python valid_scores.py --token 'your hf token' --unet_checkpoint '/SePPO/weight' --json_path 'your hpsv2 json filepath' --dataset_name 'hpsv2'
 ```
 ## Important Args
 
